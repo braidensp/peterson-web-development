@@ -1,10 +1,9 @@
-/*
-color scheme:
-154, 178, 166
-13, 130, 69
-0, 255, 122
-178, 18, 0
-255, 26, 0
+/* New color scheme:
+347F56
+3A4B40
+9DB0A3
+007BA9
+43B0E0
 */
 
 /* logo */
@@ -12,39 +11,12 @@ color scheme:
     padding: 5px;
 }
 
-/* Paralax effect */
-.paralax {
-
-}
-
-a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-a:active {
-    color: white;
-    text-decoration: none;
-}
-
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
 /* Dropdown Button */
 .dropbtn {
-    background-color:rgb(13, 130, 69);
-    color:rgb(154, 178, 166);
+    background-color:#9DB0A3;
+    color:#007BA9;
     padding: 16px;
     font-size: 16px;
-    border: none;
-    cursor: pointer;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -80,21 +52,31 @@ a:link {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #3a4b40;
 }
 
 /* Regular text settings */
 body {
-    background-color: darkslategrey;
-    color: ghostwhite;
+    background-color: #007BA9;
+    color: #9DB0A3;
 }
 
-/* Main heading settings */
-h1 {
-    color: ghostwhite;
-
+.test {
+    background-color: #9DB0A3;
+    color: #007BA9;
+    padding: 5em;
 }
 
-#center {
-  
+a:visited, a:hover, a:active, a:link {
+    color: #3a4b40;
+}
+
+.dropbtn a:visited, a:hover, a:active, a:link {
+    color: #007BA9;
+    text-decoration: none;
+}
+
+.contact {
+    align-items: center;
+    padding: 4em;
 }
