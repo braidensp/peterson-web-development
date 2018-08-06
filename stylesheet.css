@@ -10,17 +10,13 @@
     padding: 5px;
 }
 
-.nav {
-    background-color:#9DB0A3;
-    color:#007BA9;
-    padding: 16px;
-    font-size: 16px;
-}
-
 .navbutton {
     position: relative;
     display: inline-block;
     padding: 10px;
+    background-color:#9DB0A3;
+    color:#007BA9;
+    font-size: 16px;
 }
 
 .nav:hover {
