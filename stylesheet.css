@@ -7,7 +7,8 @@
 */
 
 .logo {
-    padding: 5px;
+    padding: 25px;
+    float: left;
 }
 
 .navbutton {
@@ -31,6 +32,11 @@
 body {
     background-color: #007BA9;
     color: #9DB0A3;
+}
+
+.copyright {
+    font-size: 10px;
+    float: left;
 }
 
 .test {
