@@ -20,6 +20,10 @@
     font-size: 16px;
 }
 
+.nav {
+    padding: 5px;
+}
+
 .nav:hover {
     display: block;
 }
@@ -39,17 +43,32 @@ body {
     float: left;
 }
 
-.test {
-    background-color: #9DB0A3;
-    color: #007BA9;
-    padding: 5em;
-}
-
 a:visited, a:hover, a:active, a:link, a {
     color: #3a4b40;
 }
 
-.contact {
+.homepage {
+
+}
+
+.test {
+    background-color: #9DB0A3;
+    color: #007BA9;
+    padding: 5em;
+    margin: auto;
+}
+
+.about {
+    padding: 5em;
+}
+
+.contactform {
     align-items: center;
-    padding: 4em;
+    padding: 5em;
+}
+
+.services {
+    background-color: #9DB0A3;
+    color: #007BA9;
+    padding: 5em;
 }
