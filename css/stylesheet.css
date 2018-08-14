@@ -1,0 +1,102 @@
+.colorscheme {
+    color: #347F56;
+    color: #3A4B40;
+    color: #9DB0A3;
+    color: #007BA9;
+    color: #43B0E0;
+}
+
+* {
+    font-family: 'Lato';
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+}
+
+.logo {
+    padding: 15px;
+    padding-top: 2em;
+}
+
+.hometop {
+    font-size: 40px;
+}
+
+.nav {
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #9DB0A3;
+    border: 3px #3a4b40;
+}
+
+.nav:hover {
+    display: block;
+}
+
+.nav a:visited, a:hover, a:active, a:link {
+    color: #3a4b40;
+    text-decoration: none;
+}
+
+.sitename {
+    float: left;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.navbutton {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background-color:#9DB0A3;
+    color:#007BA9;
+    font-size: 20px;
+}
+
+.navbutton:hover {
+    background-color: rgb(113, 129, 118);
+}
+
+body {
+    background-color: #007BA9;
+    color: #9DB0A3;
+}
+
+.copyright {
+    font-size: 10px;
+    float: left;
+}
+
+a:visited, a:hover, a:active, a:link, a {
+    color: #3a4b40;
+}
+
+.greyback {
+    background-color: #9DB0A3;
+    color: #007BA9;
+    padding: 5em;
+}
+
+.blueback {
+    background-color: #007BA9;
+    color: #9DB0A3;
+    padding-left: 1em;
+}
+
+.portthumb {
+    width: 25%;
+    height: 25%;
+}
+
+.portthumb:hover {
+    opacity: 5;
+}
+
+.contact .input{
+    display: block;
+    width: 80%;
+}
