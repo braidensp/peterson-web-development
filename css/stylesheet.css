@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     line-height: 2em;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .logo {
@@ -29,9 +29,12 @@
     position: fixed;
     top: 0;
     width: 100%;
+    height: auto;
     background-color: var(--dgrey);
     border: 3px var(--dgrey);
 }
+
+@media 
 
 .nav:hover {
     display: block;
@@ -46,6 +49,7 @@
     position: relative;
     display: inline-block;
     padding: 10px;
+    border-color: white;
     background-color: var(--lgrey);
     color: white;
     font-size: 20px;
@@ -86,12 +90,13 @@ a:visited, a:hover, a:active, a:link, a {
 .blueback {
     background-color: var(--blue);
     color: white;
-    padding-left: 1em;
+    padding: 5em;
 }
 
 .portthumb {
-    width: 25%;
-    height: 25%;
+    max-width: 100%;
+    align-items: center;
+    height: auto;
 }
 
 .portthumb:hover {
@@ -110,6 +115,10 @@ a:visited, a:hover, a:active, a:link, a {
 .wrap {
     display: flex;
     align-items: center;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 /* //Mobile device styling// */
