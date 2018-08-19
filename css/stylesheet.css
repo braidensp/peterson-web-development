@@ -1,9 +1,8 @@
-.colorscheme {
-    color: #347F56;
-    color: #3A4B40;
-    color: #9DB0A3;
-    color: #007BA9;
-    color: #43B0E0;
+:root {
+    --green: rgb(59, 209, 127);
+    --dgrey: rgb(121, 129, 124);
+    --lgrey: #9DB0A3;
+    --blue: rgb(0, 168, 230);
 }
 
 * {
@@ -13,11 +12,12 @@
     margin: 0;
     padding: 0;
     line-height: 2em;
+    font-size: 25px;
 }
 
 .logo {
     padding: 15px;
-    padding-top: 2em;
+    padding-top: 85px;
 }
 
 .hometop {
@@ -25,12 +25,12 @@
 }
 
 .nav {
-    padding: 1em;
+    padding: 0.5em;
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #9DB0A3;
-    border: 3px #3a4b40;
+    background-color: var(--dgrey);
+    border: 3px var(--dgrey);
 }
 
 .nav:hover {
@@ -38,32 +38,34 @@
 }
 
 .nav a:visited, a:hover, a:active, a:link {
-    color: #3a4b40;
+    color: white;
     text-decoration: none;
-}
-
-.sitename {
-    float: left;
-    font-size: 30px;
-    padding: 10px;
 }
 
 .navbutton {
     position: relative;
     display: inline-block;
     padding: 10px;
-    background-color:#9DB0A3;
-    color:#007BA9;
+    background-color: var(--lgrey);
+    color: white;
     font-size: 20px;
 }
 
 .navbutton:hover {
-    background-color: rgb(113, 129, 118);
+    border-color: white;
+}
+
+.topname {
+    font-size: 90px;
+}
+
+.tagline {
+    font-size: 45px;
 }
 
 body {
-    background-color: #007BA9;
-    color: #9DB0A3;
+    background-color: var(--blue);
+    color: white;
 }
 
 .copyright {
@@ -72,18 +74,18 @@ body {
 }
 
 a:visited, a:hover, a:active, a:link, a {
-    color: #3a4b40;
+    color: var(--dgrey);
 }
 
 .greyback {
-    background-color: #9DB0A3;
-    color: #007BA9;
+    background-color: var(--lgrey);
+    color: white;
     padding: 5em;
 }
 
 .blueback {
-    background-color: #007BA9;
-    color: #9DB0A3;
+    background-color: var(--blue);
+    color: white;
     padding-left: 1em;
 }
 
@@ -98,5 +100,16 @@ a:visited, a:hover, a:active, a:link, a {
 
 .contact .input{
     display: block;
-    width: 80%;
+    width: 90%;
 }
+
+.contact-selectors {
+    display: inline;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+}
+
+/* //Mobile device styling// */
