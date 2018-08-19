@@ -32,9 +32,7 @@
     height: auto;
     background-color: var(--dgrey);
     border: 3px var(--dgrey);
-}
-
-@media 
+} 
 
 .nav:hover {
     display: block;
