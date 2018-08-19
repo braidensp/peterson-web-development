@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     line-height: 2em;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .logo {
@@ -32,9 +32,7 @@
     height: auto;
     background-color: var(--dgrey);
     border: 3px var(--dgrey);
-}
-
-@media 
+} 
 
 .nav:hover {
     display: block;
@@ -70,6 +68,7 @@
 body {
     background-color: var(--blue);
     color: white;
+    font-size: 17px;
 }
 
 .copyright {
@@ -114,7 +113,12 @@ a:visited, a:hover, a:active, a:link, a {
 
 .wrap {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.column_left, .column_right{
+    max-width: 500px;
 }
 
 h1 {
@@ -122,3 +126,34 @@ h1 {
 }
 
 /* //Mobile device styling// */
+@media only screen and (max-width: 800px) {
+    * {
+        font-family: 'Lato';
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        line-height: 2em;
+        font-size: 20px;
+    }
+
+    .wrap {
+        display: flex;
+        flex:0 0 300px;
+        justify-content: space-around;
+        align-items: stretch;
+        font-size: 20px;
+    }
+
+    .greyback {
+        background-color: var(--lgrey);
+        color: white;
+        padding: 5em;
+    }
+    
+    .blueback {
+        background-color: var(--blue);
+        color: white;
+        padding: 5em;
+    }
+}
