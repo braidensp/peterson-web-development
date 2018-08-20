@@ -46,6 +46,7 @@
 .navbutton {
     position: relative;
     display: inline-block;
+    justify-content: space-around;
     padding: 10px;
     border-color: white;
     background-color: var(--lgrey);
@@ -55,9 +56,18 @@
 
 .navbutton:hover {
     border-color: white;
+    background-color: var(--dgrey);
+    text-decoration: white;
+    font-style: italic;
 }
 
-.topname {
+.nav .topname a {
+    display: inline-block;
+    height: auto;
+    font-size: 35px;
+}
+
+.hometop .topname {
     font-size: 90px;
 }
 
