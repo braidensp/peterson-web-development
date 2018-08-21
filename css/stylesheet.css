@@ -15,11 +15,6 @@
     font-size: 25px;
 }
 
-.logo {
-    padding: 15px;
-    padding-top: 85px;
-}
-
 .hometop {
     font-size: 40px;
 }
@@ -65,10 +60,9 @@
     background-color: var(--dgrey);
 }
 
-.nav .topname a {
-    display: inline-block;
-    height: auto;
-    font-size: 35px;
+.navicon {
+    height: 60px;
+    width: 60px;
 }
 
 .hometop .topname {
@@ -79,7 +73,12 @@
     font-size: 45px;
 }
 
+.toplink {
+    display: none;
+}
+
 body {
+    padding-top: 55px;
     background-color: var(--blue);
     color: white;
     font-size: 17px;
@@ -88,6 +87,8 @@ body {
 .copyright {
     font-size: 15px;
     float: left;
+    position: fixed;
+    bottom: 0;
 }
 
 a:visited, a:hover, a:active, a:link, a {
