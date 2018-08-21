@@ -87,7 +87,7 @@ body {
 }
 
 a:visited, a:hover, a:active, a:link, a {
-    color: var(--dgrey);
+    color: white;
 }
 
 .greyback {
