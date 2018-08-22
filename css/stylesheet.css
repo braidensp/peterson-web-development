@@ -61,8 +61,8 @@
 }
 
 .navicon {
-    height: 60px;
-    width: 60px;
+    padding-bottom: -10px;
+    float: left;
 }
 
 .hometop .topname {
@@ -79,6 +79,7 @@
 
 body {
     padding-top: 55px;
+    padding-bottom: 15px;
     background-color: var(--blue);
     color: white;
     font-size: 17px;
@@ -86,9 +87,11 @@ body {
 
 .copyright {
     font-size: 15px;
-    float: left;
+    text-align: left;
     position: fixed;
     bottom: 0;
+    background-color: var(--lgrey);
+    width: 100%;
 }
 
 a:visited, a:hover, a:active, a:link, a {
