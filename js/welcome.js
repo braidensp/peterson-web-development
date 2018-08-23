@@ -10,5 +10,3 @@ function tod() {
     }
 document.getElementById("tod").innerHTML = greeting;
 }
-
-window.onload = tod();

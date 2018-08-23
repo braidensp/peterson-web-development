@@ -143,8 +143,17 @@ h1 {
     font-size: 50px;
 }
 
+.mailbutton {
+    background-color: var(--lgrey);
+    padding: 5px;
+}
+
+.mailbutton:hover {
+    background-color: var(--dgrey);
+}
+
 /* //Mobile device styling// */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-device-width: 800px) {
     * {
         font-family: 'Lato';
         box-sizing: border-box;
@@ -176,7 +185,7 @@ h1 {
         padding-bottom: 5em;
     }
 
-    .topname {
+    .topname p {
         font-size: 15px;
     }
 }
