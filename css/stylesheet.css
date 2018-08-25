@@ -164,6 +164,11 @@ h1 {
         font-size: 20px;
     }
 
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
     .wrap {
         display: block;
         justify-content: center;
@@ -183,6 +188,8 @@ h1 {
         color: white;
         padding-top: 5em;
         padding-bottom: 5em;
+        padding-left: 0em;
+        padding-right: 0em;
     }
 
     .topname p {
