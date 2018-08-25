@@ -69,8 +69,12 @@
     font-size: 90px;
 }
 
-.tagline {
+.hometop .tagline-desktop {
     font-size: 45px;
+}
+
+.hometop .tagline-mobile {
+    display: none;
 }
 
 .toplink {
@@ -131,7 +135,7 @@ a:visited, a:hover, a:active, a:link, a {
 
 .wrap {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: stretch;
 }
 
@@ -192,7 +196,17 @@ h1 {
         padding-right: 0em;
     }
 
-    .topname p {
-        font-size: 15px;
+    .hometop .topname {
+        padding: 2em 0 1em 0;
+        font-size: 45px;
+    }
+
+    .hometop .tagline-mobile {
+        font-size: 30px;
+        display: block;
+    }
+
+    .hometop .tagline-desktop {
+        display: none;
     }
 }
