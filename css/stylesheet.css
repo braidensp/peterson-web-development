@@ -38,7 +38,7 @@
     text-decoration: none;
 }
 
-.navbutton {
+.navbutton-about {
     position: relative;
     display: inline-block;
     justify-content: space-around;
@@ -49,7 +49,61 @@
     font-size: 20px;
 }
 
-.navbutton:hover {
+.navbutton-portfolio {
+    position: relative;
+    display: inline-block;
+    justify-content: space-around;
+    padding: 10px;
+    border-color: white;
+    background-color: var(--lgrey);
+    color: white;
+    font-size: 20px;
+}
+
+.navbutton-services {
+    position: relative;
+    display: inline-block;
+    justify-content: space-around;
+    padding: 10px;
+    border-color: white;
+    background-color: var(--lgrey);
+    color: white;
+    font-size: 20px;
+}
+
+.navbutton-contact {
+    position: relative;
+    display: inline-block;
+    justify-content: space-around;
+    padding: 10px;
+    border-color: white;
+    background-color: var(--lgrey);
+    color: white;
+    font-size: 20px;
+}
+
+.navbutton-about:hover {
+    border-color: white;
+    background-color: var(--dgrey);
+    text-decoration: white;
+    font-style: italic;
+}
+
+.navbutton-portfolio:hover {
+    border-color: white;
+    background-color: var(--dgrey);
+    text-decoration: white;
+    font-style: italic;
+}
+
+.navbutton-services:hover {
+    border-color: white;
+    background-color: var(--dgrey);
+    text-decoration: white;
+    font-style: italic;
+}
+
+.navbutton-contact:hover {
     border-color: white;
     background-color: var(--dgrey);
     text-decoration: white;
