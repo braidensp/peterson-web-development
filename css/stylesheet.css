@@ -1,15 +1,14 @@
 :root {
-    --green: rgb(59, 209, 127);
-    --dgrey: rgb(121, 129, 124);
-    --lgrey: #9DB0A3;
-    --blue: rgb(0, 168, 230);
+    --green: #3A4B40;
+    --dgrey: #867878;
+    --lgrey: #E0D9D9;
+    --blue: #24242D;
 
     /*
     --navy: (#24242D);
     --dgrey: (#867878);
     --green: (#3A4B40);
     --lgrey: (#E0D9D9);
-    --black: (#000000);
     */
 }
 
@@ -42,7 +41,7 @@
 }
 
 .nav a:visited, a:hover, a:active, a:link {
-    color: white;
+    color: var(--blue);
     text-decoration: none;
 }
 
@@ -51,9 +50,9 @@
     display: inline-block;
     justify-content: space-around;
     padding: 10px;
-    border-color: white;
+    border-color: var(--blue);
     background-color: var(--lgrey);
-    color: white;
+    color: var(--blue);
     font-size: 20px;
 }
 
@@ -62,9 +61,9 @@
     display: inline-block;
     justify-content: space-around;
     padding: 10px;
-    border-color: white;
+    border-color: var(--blue);
     background-color: var(--lgrey);
-    color: white;
+    color: var(--blue);
     font-size: 20px;
 }
 
@@ -73,9 +72,9 @@
     display: inline-block;
     justify-content: space-around;
     padding: 10px;
-    border-color: white;
+    border-color: var(--blue);
     background-color: var(--lgrey);
-    color: white;
+    color: var(--blue);
     font-size: 20px;
 }
 
@@ -84,9 +83,9 @@
     display: inline-block;
     justify-content: space-around;
     padding: 10px;
-    border-color: white;
+    border-color: var(--blue);
     background-color: var(--lgrey);
-    color: white;
+    color: var(--blue);
     font-size: 20px;
 }
 
@@ -158,6 +157,7 @@ body {
     bottom: 0;
     background-color: var(--lgrey);
     width: 100%;
+    color: #24242D;
 }
 
 a:visited, a:hover, a:active, a:link, a {
@@ -212,6 +212,11 @@ h1 {
 .mailbutton {
     background-color: var(--lgrey);
     padding: 5px;
+    color: var(--blue);
+}
+
+.mailbutton:visited {
+    color: var(--blue);
 }
 
 .mailbutton:hover {

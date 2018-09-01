@@ -1,8 +1,7 @@
-var userName == "Admin";
+var userName = prompt ("Username: ", '');
 
-prompt == ("Enter username:", "")
 if (userName = "Admin") {
-    alert ("Welcome, Admin!");
-} else {
-    
+    prompt ("Welcome, Admin! We need a password:", '');
+} else
+    (alert = "Access deinied")
 }
