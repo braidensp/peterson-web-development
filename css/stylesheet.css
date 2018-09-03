@@ -3,13 +3,6 @@
     --dgrey: #867878;
     --lgrey: #E0D9D9;
     --blue: #24242D;
-
-    /*
-    --navy: (#24242D);
-    --dgrey: (#867878);
-    --green: (#3A4B40);
-    --lgrey: (#E0D9D9);
-    */
 }
 
 * {
@@ -27,103 +20,48 @@
 }
 
 .nav {
-    padding: 0.5em;
     position: fixed;
     top: 0;
     width: 100%;
     height: auto;
-    background-color: var(--dgrey);
-    border: 3px var(--dgrey);
+    background-color: var(--lgrey);
+    border: 3px var(--lgrey);
+    overflow: hidden;
 } 
 
-.nav:hover {
-    display: block;
-}
-
-.nav a:visited, a:hover, a:active, a:link {
+.nav a:visited, a:link {
     color: var(--blue);
     text-decoration: none;
 }
 
-.navbutton-about {
-    position: relative;
-    display: inline-block;
-    justify-content: space-around;
-    padding: 10px;
-    border-color: var(--blue);
-    background-color: var(--lgrey);
-    color: var(--blue);
-    font-size: 20px;
-}
-
-.navbutton-portfolio {
-    position: relative;
-    display: inline-block;
-    justify-content: space-around;
-    padding: 10px;
-    border-color: var(--blue);
-    background-color: var(--lgrey);
-    color: var(--blue);
-    font-size: 20px;
-}
-
-.navbutton-services {
-    position: relative;
-    display: inline-block;
-    justify-content: space-around;
-    padding: 10px;
-    border-color: var(--blue);
-    background-color: var(--lgrey);
-    color: var(--blue);
-    font-size: 20px;
-}
-
-.navbutton-contact {
-    position: relative;
-    display: inline-block;
-    justify-content: space-around;
-    padding: 10px;
-    border-color: var(--blue);
-    background-color: var(--lgrey);
-    color: var(--blue);
-    font-size: 20px;
-}
-
-.navbutton-about:hover {
-    border-color: white;
-    background-color: var(--dgrey);
-    text-decoration: white;
-    font-style: italic;
-}
-
-.navbutton-portfolio:hover {
-    border-color: white;
-    background-color: var(--dgrey);
-    text-decoration: white;
-    font-style: italic;
-}
-
-.navbutton-services:hover {
-    border-color: white;
-    background-color: var(--dgrey);
-    text-decoration: white;
-    font-style: italic;
-}
-
-.navbutton-contact:hover {
-    border-color: white;
-    background-color: var(--dgrey);
-    text-decoration: white;
-    font-style: italic;
-}
-
-.active {
-    background-color: var(--dgrey);
-}
-
-.navicon {
-    padding-bottom: -10px;
+.nav a {
     float: left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: var(--lgrey);
+    color: var(--blue);
+    font-size: 20px;
+}
+
+.nav a:hover {
+    border-color: white;
+    background-color: white;
+    text-decoration: white;
+}
+
+.nav a:active{
+    background-color: white;
+    color: var(--blue);
+}
+
+.nav .icon {
+    display: none;
+}
+
+header {
+    padding-bottom: 1em;
 }
 
 .hometop .topname {
@@ -144,7 +82,7 @@
 
 body {
     padding-top: 55px;
-    padding-bottom: 15px;
+    padding-bottom: 5em;
     background-color: var(--blue);
     color: white;
     font-size: 17px;
@@ -155,25 +93,10 @@ body {
     text-align: left;
     position: fixed;
     bottom: 0;
+    padding-left: 1em;
     background-color: var(--lgrey);
     width: 100%;
     color: #24242D;
-}
-
-a:visited, a:hover, a:active, a:link, a {
-    color: white;
-}
-
-.greyback {
-    background-color: var(--lgrey);
-    color: white;
-    padding: 5em;
-}
-
-.blueback {
-    background-color: var(--blue);
-    color: white;
-    padding: 5em;
 }
 
 .portthumb {
@@ -223,8 +146,17 @@ h1 {
     background-color: var(--dgrey);
 }
 
+.container {
+    display: grid;
+}
+
+.item {
+    grid-template-columns: auto auto;
+    grid-template-rows: 400px;
+}
+
 /* //Mobile device styling// */
-@media only screen and (max-device-width: 800px) {
+@media screen and (max-width: 600px) {
     * {
         font-family: 'Lato';
         box-sizing: border-box;
@@ -247,25 +179,9 @@ h1 {
         width: 100%;
     }
 
-    .greyback {
-        background-color: var(--lgrey);
-        color: white;
-        padding-top: 5em;
-        padding-bottom: 5em;
-    }
-    
-    .blueback {
-        background-color: var(--blue);
-        color: white;
-        padding-top: 5em;
-        padding-bottom: 5em;
-        padding-left: 0em;
-        padding-right: 0em;
-    }
-
     .hometop .topname {
-        padding: 2em 0 1em 0;
         font-size: 45px;
+        top: 100%;
     }
 
     .hometop .tagline-mobile {
@@ -275,5 +191,28 @@ h1 {
 
     .hometop .tagline-desktop {
         display: none;
+    
     }
+
+    .nav a:not(:first-child) {
+        display: none;
+    }
+    
+    .nav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .nav.responsive {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+
+    .nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
 }
