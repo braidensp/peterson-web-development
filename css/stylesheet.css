@@ -83,7 +83,7 @@ header {
 body {
     padding-top: 55px;
     padding-bottom: 5em;
-    background-image: url(/img/background.svg);
+    background: url(/img/background.svg);
     color: var(--green);
     font-size: 17px;
 }
@@ -100,7 +100,7 @@ body {
 }
 
 .portthumb {
-    max-width: 100%;
+    max-width: 75%;
     align-items: center;
     height: auto;
 }
