@@ -37,12 +37,12 @@ hr.star-light:after {
 }
 
 hr.star-light {
-    border-color: #FAEA4F;
+    border-color: #E0D9D9;
 }
 
 hr.star-light:after {
-    color: #FAEA4F;
-    background-color: #E71530;
+    color: #E0D9D9;
+    background-color: #867878;
 }
 
 hr.star-dark {
@@ -51,7 +51,7 @@ hr.star-dark {
 
 hr.star-dark:after {
     color: #2C3E50;
-    background-color: #FAEA4F;
+    background-color: #E0D9D9;
 }
 
 section {
@@ -104,7 +104,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-    color: #FAEA4F
+    color: #E0D9D9
 }
 
 #mainNav .navbar-nav {
@@ -113,20 +113,20 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-    color: #FAEA4F
+    color: #E0D9D9
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #E71530
+    color: #867878
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
 #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-    color: #FAEA4F
+    color: #E0D9D9
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #E71530
+    color: #867878
 }
 
 #mainNav .navbar-toggler {
@@ -152,14 +152,14 @@ section h2 {
         margin-top: 0
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
-        color: #FAEA4F;
-        background: #E71530
+        color: #E0D9D9;
+        background: #867878
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
-        color: #FAEA4F;
-        background: #E71530
+        color: #E0D9D9;
+        background: #867878
     }
     #mainNav.navbar-shrink {
         padding-top: .5rem;
@@ -318,7 +318,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #E71530
+    color: #867878
 }
 
 form .row:first-child .floating-label-form-group {
@@ -329,7 +329,7 @@ form .row:first-child .floating-label-form-group {
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: #2C3E50;
-    color: #FAEA4F
+    color: #E0D9D9
 }
 
 .copyright {
@@ -337,7 +337,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-    color: #E71530
+    color: #867878
 }
 
 a:active,
@@ -351,7 +351,7 @@ a:hover {
 }
 
 .bg-primary {
-    background-color: #E71530!important
+    background-color: #867878!important
 }
 
 .bg-secondary {
@@ -359,7 +359,7 @@ a:hover {
 }
 
 .text-primary {
-    color: #E71530!important
+    color: #867878!important
 }
 
 .text-secondary {
@@ -367,8 +367,8 @@ a:hover {
 }
 
 .btn-primary {
-    background-color: #E71530;
-    border-color: #E71530
+    background-color: #867878;
+    border-color: #867878
 }
 
 .btn-primary:active,

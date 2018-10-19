@@ -1,9 +1,8 @@
 .colorscheme {
-    color: #347F56;
-    color: #3A4B40;
-    color: #9DB0A3;
-    color: #007BA9;
-    color: #43B0E0;
+    --green: #E0D9D9;
+    --dgrey: #867878;
+    --lgrey: #E0D9D9;
+    --blue: #24242D;
 }
 
 body {
@@ -45,12 +44,12 @@ hr.star-dark:after {
 }
 
 hr.star-light {
-    border-color: #FAEA4F;
+    border-color: #E0D9D9;
 }
 
 hr.star-light:after {
-    color: #FAEA4F;
-    background-color: #E71530;
+    color: #E0D9D9;
+    background-color: #867878;
 }
 
 hr.star-dark {
@@ -112,7 +111,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-    color: #FAEA4F;
+    color: #E0D9D9;
 }
 
 #mainNav .navbar-nav {
@@ -121,20 +120,20 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-    color: #FAEA4F;
+    color: #E0D9D9;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #E71530;
+    color: #867878;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
 #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-    color: #FAEA4F;
+    color: #E0D9D9;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #E71530;
+    color: #867878;
 }
 
 #mainNav .navbar-toggler {
@@ -160,14 +159,14 @@ section h2 {
         margin-top: 0;
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
-        color: #FAEA4F;
-        background: #E71530;
+        color: #E0D9D9;
+        background: #867878;
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
-        color: #FAEA4F;
-        background: #E71530;
+        color: #E0D9D9;
+        background: #867878;
     }
     #mainNav.navbar-shrink {
         padding-top: 0.5rem;
@@ -324,7 +323,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #E71530;
+    color: #867878;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -335,7 +334,7 @@ form .row:first-child .floating-label-form-group {
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: #2C3E50;
-    color: #FAEA4F;
+    color: #E0D9D9;
 }
 
 .copyright {
@@ -343,7 +342,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-    color: #E71530;
+    color: #867878;
 }
 
 a:focus,
@@ -357,7 +356,7 @@ a:active {
 }
 
 .bg-primary {
-    background-color: #E71530 !important;
+    background-color: #867878 !important;
 }
 
 .bg-secondary {
@@ -365,7 +364,7 @@ a:active {
 }
 
 .text-primary {
-    color: #E71530 !important;
+    color: #867878 !important;
 }
 
 .text-secondary {
@@ -373,8 +372,8 @@ a:active {
 }
 
 .btn-primary {
-    background-color: #E71530;
-    border-color: #E71530;
+    background-color: #867878;
+    border-color: #867878;
 }
 
 .btn-primary:hover,
