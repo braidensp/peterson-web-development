@@ -186,9 +186,7 @@ h1 {
     /*border-bottom: 1px solid #666;*/
   }
   
-  label {
-    
-}
+  
   /**
   * Translate down and scale the label up to cover the placeholder,
   * when following an input (with placeholder-shown support).
